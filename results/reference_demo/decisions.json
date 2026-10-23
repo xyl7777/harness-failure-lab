@@ -1,0 +1,678 @@
+{
+  "primary": {
+    "schema_version": 1,
+    "baseline": "baseline",
+    "candidate": "test-wrapper",
+    "synthetic": true,
+    "evidence_type": "synthetic_software_validation",
+    "decision_applies_to": "demo_only",
+    "production_release_authorized": false,
+    "expected_split": "validation",
+    "policy": {
+      "min_tasks": 12,
+      "min_repeats": 2,
+      "max_regression_rate": 0.0,
+      "min_delta": 0.0,
+      "max_cost_ratio": 1.25,
+      "bootstrap_samples": 2000,
+      "bootstrap_seed": 20260918
+    },
+    "decision": "promote",
+    "reasons": [
+      "all frozen task-level criteria satisfied"
+    ],
+    "metrics": {
+      "planned_task_count": 12,
+      "selected_task_seed_count": 24,
+      "task_count": 12,
+      "paired_run_count": 24,
+      "improved_tasks": 4,
+      "regressed_tasks": 0,
+      "regression_denominator_baseline_positive_tasks": 5,
+      "regression_rate": 0.0,
+      "delta": 0.3333333333333333,
+      "delta_task_bootstrap_ci95": [
+        0.08333333333333333,
+        0.5833333333333334
+      ],
+      "baseline": {
+        "task_mean_success_rate": 0.4166666666666667,
+        "cost_mean_usd": 0.10500000000000002,
+        "cost_observed_task_count": 12,
+        "cost_denominator_tasks": 12,
+        "false_completion_count": 14,
+        "false_completion_denominator_claims": 24,
+        "false_completion_rate": 0.5833333333333334,
+        "repeated_failure_tasks": 7,
+        "repeated_failure_denominator_tasks": 12,
+        "all_selected_run_count": 24,
+        "all_selected_run_cost_total_usd": 2.52,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "candidate": {
+        "task_mean_success_rate": 0.75,
+        "cost_mean_usd": 0.11499999999999999,
+        "cost_observed_task_count": 12,
+        "cost_denominator_tasks": 12,
+        "false_completion_count": 6,
+        "false_completion_denominator_claims": 24,
+        "false_completion_rate": 0.25,
+        "repeated_failure_tasks": 0,
+        "repeated_failure_denominator_tasks": 12,
+        "all_selected_run_count": 24,
+        "all_selected_run_cost_total_usd": 2.76,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "cost_ratio": 1.095238095238095
+    },
+    "tasks": [
+      {
+        "task_id": "synthetic-00",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-01",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-02",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-03",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-04",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-05",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 1.0
+      },
+      {
+        "task_id": "synthetic-06",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 1.0
+      },
+      {
+        "task_id": "synthetic-07",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 1.0
+      },
+      {
+        "task_id": "synthetic-08",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "delta": 1.0
+      },
+      {
+        "task_id": "synthetic-09",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-10",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-11",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      }
+    ],
+    "limitations": [
+      "Bootstrap interval is descriptive, not a guarantee of unseen-task performance.",
+      "Promotion on synthetic fixtures only validates decision software.",
+      "Human-reviewed task/family assignments and an independent evaluator remain trust boundaries."
+    ]
+  },
+  "insufficient_data_case": {
+    "schema_version": 1,
+    "baseline": "baseline",
+    "candidate": "test-wrapper",
+    "synthetic": true,
+    "evidence_type": "synthetic_software_validation",
+    "decision_applies_to": "demo_only",
+    "production_release_authorized": false,
+    "expected_split": "validation",
+    "policy": {
+      "min_tasks": 12,
+      "min_repeats": 2,
+      "max_regression_rate": 0.0,
+      "min_delta": 0.0,
+      "max_cost_ratio": 1.25,
+      "bootstrap_samples": 2000,
+      "bootstrap_seed": 20260918
+    },
+    "decision": "needs-more-data",
+    "reasons": [
+      "incomplete pair: ('synthetic-00', 0)",
+      "insufficient independent tasks",
+      "cost unknown; null is not zero"
+    ],
+    "metrics": {
+      "planned_task_count": 1,
+      "selected_task_seed_count": 1,
+      "task_count": 0,
+      "paired_run_count": 0,
+      "improved_tasks": 0,
+      "regressed_tasks": 0,
+      "regression_denominator_baseline_positive_tasks": 0,
+      "regression_rate": null,
+      "delta": null,
+      "delta_task_bootstrap_ci95": null,
+      "baseline": {
+        "task_mean_success_rate": null,
+        "cost_mean_usd": null,
+        "cost_observed_task_count": 0,
+        "cost_denominator_tasks": 0,
+        "false_completion_count": 0,
+        "false_completion_denominator_claims": 0,
+        "false_completion_rate": null,
+        "repeated_failure_tasks": 0,
+        "repeated_failure_denominator_tasks": 0,
+        "all_selected_run_count": 1,
+        "all_selected_run_cost_total_usd": 0.1,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "candidate": {
+        "task_mean_success_rate": null,
+        "cost_mean_usd": null,
+        "cost_observed_task_count": 0,
+        "cost_denominator_tasks": 0,
+        "false_completion_count": 0,
+        "false_completion_denominator_claims": 0,
+        "false_completion_rate": null,
+        "repeated_failure_tasks": 0,
+        "repeated_failure_denominator_tasks": 0,
+        "all_selected_run_count": 0,
+        "all_selected_run_cost_total_usd": 0,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "cost_ratio": null
+    },
+    "tasks": [],
+    "limitations": [
+      "Bootstrap interval is descriptive, not a guarantee of unseen-task performance.",
+      "Promotion on synthetic fixtures only validates decision software.",
+      "Human-reviewed task/family assignments and an independent evaluator remain trust boundaries."
+    ]
+  },
+  "regression_case": {
+    "schema_version": 1,
+    "baseline": "baseline",
+    "candidate": "test-wrapper",
+    "synthetic": true,
+    "evidence_type": "synthetic_software_validation",
+    "decision_applies_to": "demo_only",
+    "production_release_authorized": false,
+    "expected_split": "validation",
+    "policy": {
+      "min_tasks": 12,
+      "min_repeats": 2,
+      "max_regression_rate": 0.0,
+      "min_delta": 0.0,
+      "max_cost_ratio": 1.25,
+      "bootstrap_samples": 2000,
+      "bootstrap_seed": 20260918
+    },
+    "decision": "reject",
+    "reasons": [
+      "regression rate exceeds frozen policy"
+    ],
+    "metrics": {
+      "planned_task_count": 12,
+      "selected_task_seed_count": 24,
+      "task_count": 12,
+      "paired_run_count": 24,
+      "improved_tasks": 0,
+      "regressed_tasks": 5,
+      "regression_denominator_baseline_positive_tasks": 5,
+      "regression_rate": 1.0,
+      "delta": -0.4166666666666667,
+      "delta_task_bootstrap_ci95": [
+        -0.6666666666666666,
+        -0.16666666666666666
+      ],
+      "baseline": {
+        "task_mean_success_rate": 0.4166666666666667,
+        "cost_mean_usd": 0.10500000000000002,
+        "cost_observed_task_count": 12,
+        "cost_denominator_tasks": 12,
+        "false_completion_count": 14,
+        "false_completion_denominator_claims": 24,
+        "false_completion_rate": 0.5833333333333334,
+        "repeated_failure_tasks": 7,
+        "repeated_failure_denominator_tasks": 12,
+        "all_selected_run_count": 24,
+        "all_selected_run_cost_total_usd": 2.52,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "candidate": {
+        "task_mean_success_rate": 0.0,
+        "cost_mean_usd": 0.11499999999999999,
+        "cost_observed_task_count": 12,
+        "cost_denominator_tasks": 12,
+        "false_completion_count": 24,
+        "false_completion_denominator_claims": 24,
+        "false_completion_rate": 1.0,
+        "repeated_failure_tasks": 0,
+        "repeated_failure_denominator_tasks": 12,
+        "all_selected_run_count": 24,
+        "all_selected_run_cost_total_usd": 2.76,
+        "all_selected_run_cost_unknown_count": 0
+      },
+      "cost_ratio": 1.095238095238095
+    },
+    "tasks": [
+      {
+        "task_id": "synthetic-00",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": -1.0
+      },
+      {
+        "task_id": "synthetic-01",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": -1.0
+      },
+      {
+        "task_id": "synthetic-02",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": -1.0
+      },
+      {
+        "task_id": "synthetic-03",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": -1.0
+      },
+      {
+        "task_id": "synthetic-04",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 1.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 0,
+          "repeated_failure": false
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": -1.0
+      },
+      {
+        "task_id": "synthetic-05",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-06",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-07",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-08",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-09",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-10",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      },
+      {
+        "task_id": "synthetic-11",
+        "repeats": 2,
+        "baseline": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.10500000000000001,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": true
+        },
+        "candidate": {
+          "success_rate": 0.0,
+          "cost_mean_usd": 0.11499999999999999,
+          "claim_count": 2,
+          "false_claim_count": 2,
+          "repeated_failure": false
+        },
+        "delta": 0.0
+      }
+    ],
+    "limitations": [
+      "Bootstrap interval is descriptive, not a guarantee of unseen-task performance.",
+      "Promotion on synthetic fixtures only validates decision software.",
+      "Human-reviewed task/family assignments and an independent evaluator remain trust boundaries."
+    ]
+  }
+}

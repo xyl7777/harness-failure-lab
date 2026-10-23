@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "model_api_called": false,
+  "actual_api_spend_usd": 0,
+  "python_version": "3.13.1",
+  "process_checks_passed": 8,
+  "process_checks_total": 8,
+  "runs": 72,
+  "tasks": 12,
+  "repeats_per_task_config": 2,
+  "config_count": 3,
+  "diagnosis_count": 102,
+  "final_test_sha256": "1a1aeb42f000eec044d7054ea98075c12ed3111f27e5dd3d6de21f017773fa0d",
+  "final_test_hash_verified": true,
+  "main_llm_experiment_run": false,
+  "publication_scope": "Aggregated outputs of the existing scripted software validation only. Raw process output, workspaces and frozen-test paths are intentionally not distributed. Regenerate the complete artifact tree with the demo command.",
+  "original_manifest_sha256": "bd05f49be113193bb8380c7b65535ecaa1dfd5c8b2671f9fcb7610ca8d586b20",
+  "included_artifacts": [
+    "candidates.json",
+    "comparison.json",
+    "decisions.json",
+    "process_check_summary.json",
+    "summary.json",
+    "task_comparison.csv",
+    "task_manifest.json",
+    "versions.json"
+  ]
+}

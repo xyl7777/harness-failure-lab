@@ -1,0 +1,28 @@
+{
+  "hashes": {
+    "baseline": "df5cdb2276b5ea295f96a953ab784a2c3a1e1ab4ccc210629bd180a1058f0afb",
+    "short-guidance": "512a4df694e69757908d945f3d99b6234466dffc109651425d17b15dde1b5ae9",
+    "test-wrapper": "b1cc67c5a56d93621aef5186e149db3bc24097ce907c6f1f6e51ff1646f108aa"
+  },
+  "rollback_verified": true,
+  "state": {
+    "active": "df5cdb2276b5ea295f96a953ab784a2c3a1e1ab4ccc210629bd180a1058f0afb",
+    "history": [
+      {
+        "previous": null,
+        "active": "df5cdb2276b5ea295f96a953ab784a2c3a1e1ab4ccc210629bd180a1058f0afb",
+        "reason": "initial frozen baseline"
+      },
+      {
+        "previous": "df5cdb2276b5ea295f96a953ab784a2c3a1e1ab4ccc210629bd180a1058f0afb",
+        "active": "b1cc67c5a56d93621aef5186e149db3bc24097ce907c6f1f6e51ff1646f108aa",
+        "reason": "synthetic demo gate passed; not real-agent approval"
+      },
+      {
+        "previous": "b1cc67c5a56d93621aef5186e149db3bc24097ce907c6f1f6e51ff1646f108aa",
+        "active": "df5cdb2276b5ea295f96a953ab784a2c3a1e1ab4ccc210629bd180a1058f0afb",
+        "reason": "explicit rollback"
+      }
+    ]
+  }
+}

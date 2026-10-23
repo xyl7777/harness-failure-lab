@@ -1,0 +1,13 @@
+task_id,repeats,baseline_success_rate,candidate_success_rate,delta,synthetic
+synthetic-00,2,1.0,1.0,0.0,True
+synthetic-01,2,1.0,1.0,0.0,True
+synthetic-02,2,1.0,1.0,0.0,True
+synthetic-03,2,1.0,1.0,0.0,True
+synthetic-04,2,1.0,1.0,0.0,True
+synthetic-05,2,0.0,1.0,1.0,True
+synthetic-06,2,0.0,1.0,1.0,True
+synthetic-07,2,0.0,1.0,1.0,True
+synthetic-08,2,0.0,1.0,1.0,True
+synthetic-09,2,0.0,0.0,0.0,True
+synthetic-10,2,0.0,0.0,0.0,True
+synthetic-11,2,0.0,0.0,0.0,True

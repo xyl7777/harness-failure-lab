@@ -1,0 +1,39 @@
+[
+  {
+    "schema_version": 1,
+    "scope": "synthetic-python-fixtures-only",
+    "model_id": "scripted-no-llm",
+    "candidate_design_families": [
+      "dev-test-entry"
+    ],
+    "final_tests_editable": false,
+    "config_id": "baseline",
+    "intervention": "none",
+    "guidance": "Use the supplied test entry."
+  },
+  {
+    "schema_version": 1,
+    "scope": "synthetic-python-fixtures-only",
+    "model_id": "scripted-no-llm",
+    "candidate_design_families": [
+      "dev-test-entry"
+    ],
+    "final_tests_editable": false,
+    "config_id": "short-guidance",
+    "intervention": "context",
+    "guidance": "Check the repository version and test entry. Exit zero with no executed tests is not verification. Record collection and skip counts."
+  },
+  {
+    "schema_version": 1,
+    "scope": "synthetic-python-fixtures-only",
+    "model_id": "scripted-no-llm",
+    "candidate_design_families": [
+      "dev-test-entry"
+    ],
+    "final_tests_editable": false,
+    "config_id": "test-wrapper",
+    "intervention": "tool",
+    "tool": "harnesslab check-tests",
+    "guidance": "Use the structured wrapper. Treat zero collection, skipped-only, timeout and missing results as unverified."
+  }
+]

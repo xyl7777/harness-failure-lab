@@ -1,0 +1,86 @@
+[
+  {
+    "task_id": "synthetic-00",
+    "family_id": "validation-family-00",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-01",
+    "family_id": "validation-family-01",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-02",
+    "family_id": "validation-family-02",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-03",
+    "family_id": "validation-family-03",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-04",
+    "family_id": "validation-family-04",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-05",
+    "family_id": "validation-family-05",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-06",
+    "family_id": "validation-family-06",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-07",
+    "family_id": "validation-family-07",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-08",
+    "family_id": "validation-family-08",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-09",
+    "family_id": "validation-family-09",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-10",
+    "family_id": "validation-family-10",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  },
+  {
+    "task_id": "synthetic-11",
+    "family_id": "validation-family-11",
+    "split": "validation",
+    "base_commit": "fixture-v1",
+    "synthetic": true
+  }
+]
