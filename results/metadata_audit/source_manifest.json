@@ -1,0 +1,43 @@
+{
+  "dataset": "princeton-nlp/SWE-bench_Lite",
+  "dataset_page": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Lite",
+  "source_urls": [
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=0&length=50",
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=50&length=50",
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=100&length=50",
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=150&length=50",
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=200&length=50",
+    "https://datasets-server.huggingface.co/rows?dataset=princeton-nlp%2FSWE-bench_Lite&config=default&split=test&offset=250&length=50"
+  ],
+  "transports": [
+    "system curl TLS verification (Python CA fallback)",
+    "system curl TLS verification (Python CA fallback)",
+    "system curl TLS verification (Python CA fallback)",
+    "system curl TLS verification (Python CA fallback)",
+    "system curl TLS verification (Python CA fallback)",
+    "system curl TLS verification (Python CA fallback)"
+  ],
+  "retrieved_at_utc": "2026-09-19T02:18:12.333755+00:00",
+  "upstream_split": "test",
+  "repository_filter": null,
+  "requested_limit": 300,
+  "downloaded_rows": 300,
+  "metadata_sha256": "3d186fc94b1bd1c358f63cf4d6294add386f5e1b0a14099491784c479a5f3f24",
+  "allowlisted_fields": [
+    "instance_id",
+    "repo",
+    "base_commit",
+    "problem_statement",
+    "created_at",
+    "version"
+  ],
+  "excluded_fields": [
+    "patch",
+    "test_patch",
+    "hints_text",
+    "FAIL_TO_PASS",
+    "PASS_TO_PASS"
+  ],
+  "metadata_only": true,
+  "limitations": "Public historical issue metadata, not reproduced tasks. Upstream row endpoint is mutable; local snapshot hash pins this copy. Responses may contain excluded fields in memory; they are never persisted or forwarded."
+}

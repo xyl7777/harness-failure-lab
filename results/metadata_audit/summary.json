@@ -1,0 +1,21 @@
+{
+  "metadata_only": true,
+  "environments_reproduced": 0,
+  "description": "Repository counts derived from the existing six-field public SWE-bench Lite metadata projection; no issue text or gold patches are distributed.",
+  "rows": 300,
+  "repository_counts": {
+    "astropy/astropy": 6,
+    "django/django": 114,
+    "matplotlib/matplotlib": 23,
+    "mwaskom/seaborn": 4,
+    "pallets/flask": 3,
+    "psf/requests": 6,
+    "pydata/xarray": 5,
+    "pylint-dev/pylint": 6,
+    "pytest-dev/pytest": 17,
+    "scikit-learn/scikit-learn": 23,
+    "sphinx-doc/sphinx": 16,
+    "sympy/sympy": 77
+  },
+  "source_manifest": "source_manifest.json"
+}
