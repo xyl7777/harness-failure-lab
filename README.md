@@ -68,7 +68,3 @@ The metadata downloader projects six allowed fields from [SWE-bench Lite](https:
 An earlier audit read all 300 test-set metadata records. This release retains [repository counts](results/metadata_audit/summary.json) and the [source manifest](results/metadata_audit/source_manifest.json), without redistributing issue text. Metadata inspection is separate from reconstructing or solving the tasks.
 
 Real agent runs require isolated execution, an independently operated evaluator, reviewed adapters, pinned model and environment versions, and development/validation/final task separation. The subprocess runner inherits local permissions and is not a security sandbox. The supplied fixtures are trusted; arbitrary generated code needs a container or separate machine. A declared `independent` field and local hashes do not by themselves prove evaluator isolation.
-
-## Provenance
-
-This release contains the reference prototype and evaluation materials from Yanxi Liu's project materials. The implementation and accompanying manuscript were prepared with AI assistance. No publication, company affiliation, deployment, or completed model-effectiveness study is claimed. The manuscript is an unpublished technical draft.
