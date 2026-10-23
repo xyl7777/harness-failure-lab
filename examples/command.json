@@ -1,0 +1,10 @@
+{
+  "workspace": ".",
+  "cwd": ".",
+  "argv": [
+    "python3",
+    "-c",
+    "print('external adapter smoke check')"
+  ],
+  "timeout_s": 10
+}
