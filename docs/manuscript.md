@@ -2,7 +2,7 @@
 
 ## A Reproducible Prototype and Evaluation Protocol
 
-Unpublished technical manuscript, version 1.0. Independent prototype informed by publicly described developer-tool workflows, with no company affiliation claimed. The reference implementation and documentation were prepared with AI assistance. This document makes no individual authorship or contribution claim. The completed checks use synthetic records and local process fixtures; the live-model efficacy study remains unexecuted.
+Unpublished technical manuscript, version 1.0. The completed checks use synthetic records and local process fixtures; the live-model efficacy study remains unexecuted.
 
 See the [repository overview](../README.md), [implementation guide](methods.md), and [evaluation and reproduction guide](evaluation.md).
 
