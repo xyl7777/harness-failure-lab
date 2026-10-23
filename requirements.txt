@@ -1,0 +1,2 @@
+# Offline reference implementation uses Python standard library only.
+# No pip install is needed for python3 -m harnesslab.

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+results/demo*/
+results/*validation*/
+results/*logs*/
+results/public_metadata*/
+results/imported/
+results/replayed*.json
+results/check_*.json
+results/external_command.json
